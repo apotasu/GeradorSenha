@@ -16,7 +16,7 @@ public class Main {
         String max = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String symbols = "!@#$%¨&*()_+?/|-";
         String password = "";
-        while (password.length() <= 14) {
+        while (password.length() <= 15) {
             int num = (int) (Math.random() * nums.length() + 1);
             int numMini = (int) (Math.random() * mini.length() + 1);
             int numMax = (int) (Math.random() * max.length() + 1);
